@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(41, 40, 40);
+
+}
+
+h1{
+    color: white;
+    
+}
+
+h2{
+    color: orange; /*cor da frente*/
+
+}
+
+h3{
+    color: rgb(230, 183, 96);
+
+}
+
+div{
+    border: solid 1px #aaaaaa;/*Borda*/
+    width: 400px;/*Largura*/
+    /* height: 450px; */
+    
+}
+
+
+img{
+    width: 100%; /*Largura em porcentagem obedecera à largura do elemento pai*/
+
+}
+

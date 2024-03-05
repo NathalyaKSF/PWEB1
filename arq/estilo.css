@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+
+}
+
+h1{
+    color: red;
+    font-size: 35px;
+}
+
+h2{
+    color: red; /*cor da frente*/
+    background-color: white;
+}
+div{
+    border: solid 1px #aaaaaa;/*Borda*/
+    width: 400px;/*Largura*/
+}
+
+span{
+    color: gray;
+}
+
+
+h4{
+    color: red;
+}
+
+img{
+    width: 100%; /*Largura em porcentagem obedecera à largura do elemento pai*/
+
+}
+
