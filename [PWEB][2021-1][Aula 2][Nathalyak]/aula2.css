@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.barra-superior{
+    border: solid 1px #be0505;
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.barra-de-busca{
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.barra-de-acoes{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+.bt-primario{
+    background-color: #777777;
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+   
+}
+.bt-primario:hover{
+    background-color: #000000;
+}
+
+.bt-secundario{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+.bt-secundario:hover{
+    background-color: #888888;
+}
+
+.avatar{
+    height: 36px;
+    width: 36px;
+    border-radius: 36px;
+
+    border: solid 1px #888888;
+}
+.avatar:hover{
+    filter: brightness(4%);
+}
+input{
+    border-radius: 100px;
+    height: 35px;
+    border: 4px;
+    background-color: rgb(240, 239, 239);
+    margin-left: 1px;
+    
+}
+.campo-texto {
+    text-indent: 20px; /* Move o ponto de inserção para a direita */
+  }
+  
+
+.placeholder::placeholder {
+    text-align: left;
+    color: #999; 
+    padding-left: 10px;
+  }
+#ifallogo{
+    height: 50px;
+}
+    
+
+img{
+    height: 730px;
+}
+
+.conteudo{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 800px;
+
+    border: solid 1px #ff0000;
+}
+
+.titulo-principal{
+    font-family: sans-serif; /*Tipo da fonte*/
+    font-weight: 900; /*Espessura da linha da letra*/
+    font-size: 40px; /*Tamanho da letra*/
+}
+
+.info
+{
+    font-family: sans-serif;
+
+}
+
+.linha1{
+    font-size:16px ;
+}
+.linha2{
+    font-size: 14px;
+}
+.claro{
+    color: #777777;
+}
+.escuro{
+    color: #222222
+}
+
+.acoes-conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.interacoes{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.compartilhamento{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.icone{
+    width: 24px;
+    height: 24px;
+}
