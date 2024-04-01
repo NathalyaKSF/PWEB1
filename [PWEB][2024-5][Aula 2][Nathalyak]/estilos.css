@@ -1,0 +1,61 @@
+header{background: white
+}
+#titulo-principal{
+    color: aqua;
+    display: flex;
+}
+.fundo-principal{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+.f1{
+    background: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.div-principal{
+    background: rgb(255, 255, 255);
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#desc{
+    color: aqua;
+}
+.f2{
+    background: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+                                     
+}
+.imagens{
+    display: flex;
+    justify-content: space-around;
+}
+.img-descricao
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.f3{
+    background: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.botao{
+    display: flex;
+    flex-direction: row;
+}
