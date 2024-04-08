@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.primeira{
+    display: flex;
+    background-color: rgb(41, 38, 38);
+    height: 120px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.retangulo1{
+    display: flex;
+    background-color: rgb(230, 89, 89);
+    height: 70px;
+    width: 100px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.espaco{
+    background-color: black;
+    height: 25px;
+    width: 100%;
+}
+
+.segunda{
+    display: flex;
+    background-color: rgb(41, 38, 38);
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quadrado{
+    display: flex;
+    background-color: rgb(233, 157, 133);
+    height: 120px;
+    width: 110px;
+    margin: 10px;
+    padding-top: 20px;
+    justify-content:center;
+    color: black;  
+}
+
+.terceira{
+    display: flex;
+    background-color: rgb(41, 38, 38);
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.retangulo2{
+    display: flex;
+    background-color: rgb(128, 233, 7);
+    height: 70px;
+    width: 100px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.quarta{
+    display: flex;
+    background-color: rgb(41, 38, 38);
+    height: 120px;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.retangulo3{
+    display: flex;
+    background-color: rgb(83, 241, 162);
+    height: 70px;
+    width: 100px;
+    margin: 10px;
+    align-items:center;
+    justify-content:center;
+    color: black;
+}
+
+.quinta{
+    display: flex;
+    background-color: rgb(41, 38, 38);
+    height: 120px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.retangulo4{
+    display: flex;
+    background-color: rgb(123, 144, 238);
+    height: 70px;
+    width: 100px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
