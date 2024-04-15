@@ -1,0 +1,102 @@
+
+header{
+    background-color: white;
+    height: 40px;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.bt-1{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 30px;
+    height: 40px;
+    width: 170px;
+}
+.cor-fundo{
+    background-color: rgb(238, 235, 235);
+    height: 30px;
+}
+.corpo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.img-1{
+    height: 300px;
+    width: 300px;
+}
+.textos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.texto-1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+height: 200px;
+width: 400px;
+}
+.texto-2{
+    align-items: center;
+    height: 200px;
+    width: 500px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inf-2{
+    background-color: rgb(238, 235, 235);
+    height: 210px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.anuidade{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.p1{
+    height: 100px;
+    width: 200px;
+}
+.valor{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150px;
+
+
+}
+
+.inf-3{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 45px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inf-4{
+    display: flex;
+    justify-content: space-between;
+}
+.spanT{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    height: 100px;
+    width: 250px;
+}
+
+.inf-5{
+    background-color: black;
+    height: 100px;
+    justify-content: space-between;
+
+}
+
+.texto-f{
+    color: white;
+    height: 100px;
+    width: 100px;
+}
