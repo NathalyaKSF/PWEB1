@@ -172,6 +172,7 @@ body{
 
 .quadro4{
     background-color: rgb(184, 229, 255);
+    
 
     display: flex;
     justify-content: center;
@@ -181,4 +182,32 @@ body{
     /* margin-right: 1200px; */
     width: fit-content;
     border-radius: 10px;
+}
+
+.pacote-2{
+    background-color: rgb(8, 81, 189);
+    color: white;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    margin: 15px;
+    
+    width: fit-content;
+    border-radius: 20px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 10px;
+}
+
+.final4{
+    background-color: rgb(8, 81, 189);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
 }
