@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(39, 39, 39);
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    
+   
+}
+.card{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    width: 100px;
+}
+.img{
+   display: flex;
+   width: 80px;
+   height: 80px;  
+   border-radius: 50px;
+ 
+}
+.texto-1{
+    font-size: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 5px;
+}
+
+.texto-2{
+    font-size: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(185, 175, 175);
+    margin-top: 3px;
+}
