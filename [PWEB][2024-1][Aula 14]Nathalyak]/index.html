@@ -6,46 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kosugi+Maru&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kosugi+Maru&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=s
+wap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Kosugi+Maru&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body >
-   <header>
-    <nav class="navegation"></nav>
-   </header>
-<div class="principal">
-    <div class="card">
-        <img class="img" src="img/henriquejuliano.jfif" alt="">
-        <span class="texto-1">Henrique & Juliano</span>
-        <span class="texto-2">Artista</span>
+    <div class="inscreverEntrar">
+        <div class="b1">
+            <button class="menorQmaiorQ">&#60;</button>
+            <button class="menorQmaiorQ">&#62;</button>
+        </div> 
+        <div class="b2">
+            <button class="inscricao">Inscrever-se</button>
+            <button class="entrar">Entrar</button>
+        </div>
     </div>
-    <div class="card">
-        <img class="img" src="img/zenetocristiano.jfif" alt="">
-        <span class="texto-1">Zé Neto & Cristiano</span>
-        <span class="texto-2">Artista</span>
+<div class="conteudo">
+    <div class="artista">
+        <h1 class="aPopulares">Artistas Populares</h1>
+        <button class="mostrarTudo">Mostrar Tudo</button>
     </div>
-    <div class="card">
-        <img class="img" src="img/anacastela.jfif" alt="">
-        <span class="texto-1">Ana Castela</span>
-        <span class="texto-2">Artista</span>
-    </div>
-    <div class="card">
-        <img class="img" src="img/luansantana.jfif" alt="">
-        <span class="texto-1">Luan Santana</span>
-        <span class="texto-2">Artista</span>
-    </div>
-    <div class="card">
-        <img class="img" src="img/gustavolima.jfif" alt="">
-        <span class="texto-1">Gustavo Lima</span>
-        <span class="texto-2">Artista</span>
-    </div>
-    <div class="card">
-        <img class="img" src="img/jorgemateus.jfif" alt="">
-        <span class="texto-1">Jorge e Mateus</span>
-        <span class="texto-2">Artista</span>
-    </div>
-    <div>
-        <img src="" alt="">
-        <span></span>
-        <span></span>
+    <div class="cantores">
+        <div class="cardCantores">
+            <img class="imgCantor" src="img/henriquejuliano.jfif" alt="">
+            <a class="nomeCantor" href="#">Henrique & Juliano</a> 
+            <span class="artista">Artista</span>
+        </div>
+        <div class="cardCantores">
+            <img class="imgCantor" src="img/zenetocristiano.jfif" alt="">
+            <span class="nomeCantor">Zé Neto & Cristiano</span>
+            <span class="artista">Artista</span>
+        </div>
+
+        <div class="cardCantores">
+            <img class="imgCantor" src="img/anacastela.jfif" alt="">
+            <span class="nomeCantor">Ana Castela</span>
+            <span class="artista">Artista</span>
+        </div>
+
+        <div class="cardCantores">
+            <img class="imgCantor" src="img/luansantana.jfif" alt="">
+            <span class="nomeCantor">Luan Santana</span>
+            <span class="artista">Artista</span>
+        </div>
+
+        <div class="cardCantores">
+            <img class="imgCantor" src="img/gustavolima.jfif" alt="">
+            <span class="nomeCantor">Gustavo Lima</span>
+            <span class="artista">Artista</span>
+        </div>
+
+        <div class="cardCantores">
+            <img class="imgCantor" src="img/jorgemateus.jfif" alt="">
+            <span class="nomeCantor">Jorge e Mateus</span>
+            <span class="artista">Artista</span>
+        </div>
+
     </div>
 </div>
 
