@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #121212;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.sidebar {
+    width: 230px;
+    background-color: #000000;
+    color: #b3b3b3;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.nav-links, .playlist-links, .footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li, .playlist-links li, .footer-links li {
+    margin: 15px 0;
+}
+
+.nav-links a, .playlist-links a, .footer-links a {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a:hover, .playlist-links a:hover, .footer-links a:hover {
+    color: #FFFFFF;
+}
+
+.nav-links i, .playlist-links i {
+    margin-right: 10px;
+}
+
+.divider {
+    border-top: 1px solid #282828;
+    margin: 20px 0;
+}
+
+.footer-links {
+    font-size: 11px;
+    color: #808080;
+}
+
+.footer-links a:hover {
+    color: #b3b3b3;
+}
+
+.content {
+    margin-left: 230px;
+    padding: 20px;
+    flex: 1;
+    background-color: #181818;
+}

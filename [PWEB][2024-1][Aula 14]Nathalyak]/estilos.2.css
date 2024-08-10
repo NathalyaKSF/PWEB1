@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(39, 39, 39);
+}
+
+.div-principal{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px    ;
+}
+h1{
+    color: white;
+}
+
+.indice{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(207, 199, 199);
+}
+.Biblioteca{
+    display: flex;
+    flex-direction: column;
+}
+.card-div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.chamado{
+    background-color: rgb(122, 122, 122);
+    width: 250px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.informacao{
+    background-color: rgb(122, 122, 122);
+    width: 250px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bt-1{
+    background-color: white;
+    color: #000000;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    border:none;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 250;
+}
+
+.final{
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    height: 20px;
+    gap: 5px;
+}

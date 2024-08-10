@@ -65,9 +65,8 @@ body{
 
 .conteudo{
     background-color: #333232;
-
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 16px;
+    gap: 15px;
 }
 
 .artistas{
@@ -85,7 +84,7 @@ body{
 
 .mostrarTudo{
     background-color: #333232;
-    color: white;
+    color: rgb(255, 247, 247);
 
     border: none;
 
@@ -116,7 +115,7 @@ body{
     border-radius: 200px;
 }
 
-.nomeCantor{
+.nomeCantor,.nomeAlbum{
     color: white;
 
     font-family: "DM Sans", sans-serif;
@@ -125,9 +124,33 @@ body{
 
     text-decoration: none;
 }
-.artista{
-    color: white;
+.artista, .artistaAlbum {
+    color: rgb(26, 25, 25);
 
     font-family: "DM Sans", sans-serif;
     font-size: 18px;
+}
+
+/*------------------------------------------*/
+.albuns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+}
+
+.card-album{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: calc(16px);
+}
+
+.imgAlbum{
+    width: 200px;
+    height: 200px;
+    
+    border-radius: 20px;
 }
