@@ -1,0 +1,161 @@
+.body1{
+    background-color: #000000;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+
+.logomarca{
+    display: flex;
+    flex-direction: row;
+    /*width: 100px;
+    height: 100px;*/
+    max-width: 200px;
+
+    animation: pulse 3s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1); 
+    }
+    50% {
+        transform: scale(1.3); 
+    }
+    100% {
+        transform: scale(1); 
+    }
+}
+
+/*--------margin:  138px;--SEGUNDA TELA(email, nome, senha e botão)-----------*/
+.body2{
+    background-color: #ffffff;
+}
+
+.email, .nome, .senha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    height: 50px;
+    padding: 3px;
+
+    color: #000000;
+
+    border-radius: 12px 12px 12px 12px;
+}
+
+.cadastrar1{ /*TENTAR DEIXAR MAIS NO MEIO*/
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000;
+    color: #ffffff;
+
+    margin-top: 20px;
+    margin-left: 130px;
+    padding: 15px;
+    width: 120px;
+    border-radius: 12px 12px 12px 12px;
+    border: none;
+
+    cursor: pointer;
+}
+
+.logoBranca{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*width: 100px;
+    height: 100px;*/
+
+  
+
+    margin-left: 45px;
+    margin-top: 10px;
+    max-width: 300px;
+}
+
+/*----------TERCEIRA TELA(foto, descrição, valor e botão)-----------*/
+.oculto{
+    display: none;
+}
+
+.formulario{ /* generico */
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    color: #000000;
+    gap: 5px;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+.imgTitulo{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    border-color: #000000;
+}
+
+.foto, .descricao, .valor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 50px;
+    color: #000000;
+
+    border-radius: 12px 12px 12px 12px;
+}
+
+.cadastrar2{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000;
+    color: #ffffff;
+
+    margin-top: 20px;
+    margin-left: 130px;
+    padding: 15px;
+    width: 120px;
+    border-radius: 12px 12px 12px 12px;
+    border: none;
+
+    cursor: pointer;
+}
+
+/*----------QUARTA TELA(foto, descrição e valor do perfume aparecem na tela)-----------*/
+.card{ /*TESTAR*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10px ;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    color: #999999;
+}
+
+.card:nth-child(2n){
+    background-color: #1c1c1c;
+}

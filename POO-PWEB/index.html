@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>De Parfum</title>
+</head>
+<body class="body2">
+    
+    
+    <form id="formCadastro" action="#"  onsubmit="event.preventDefault();" class="formulario">
+
+        <img class="logoBranca" src="img/logoCor.png" alt="">
+        <div class="email">
+            <label for="iptEmail">Email</label>
+            <input type="email" name="" id="iptEmail">
+        </div>
+
+        <div class="nome">
+            <label for="iptNome">Nome</label>
+            <input type="text" id="iptNome">
+        </div>
+
+        <div class="senha">
+            <label for="iptSenha">Senha</label>
+            <input type="password" id="iptSenha">
+        </div>
+
+        <button class="cadastrar1" id="btnCadastrar1">CADASTRAR</button>
+
+        
+    </form>
+
+    <form id="formPerfume"  action="#" onsubmit="event.preventDefault();"  class="oculto"> 
+        <div class="titulo">
+            <div>Olá, <span id="nomeUsuario">  </span> </div>
+            <span>Cadastre aqui seu Perfume!</span>
+        </div>
+
+        <div class="imagem">
+            <img class=imgTitulo src="img/logoTransparente.png" alt="">
+        </div>
+        
+
+        <div class="foto">
+            <label for="iptFoto">Foto</label>
+            <input type="file" name="Foto" id="iptFoto">
+        </div>
+
+        <div class="descricao">
+            <label for="iptDescricao">Descrição</label>
+            <input type="text" name="Descrição" id="iptDescricao">
+        </div>
+
+        <div class="valor">
+            <label for="iptValor">Valor</label>
+            <input type="text" name="Valor" id="iptValor">
+        </div>
+
+        <button class="cadastrar2" id="btnCadastrar2">CADASTRAR</button>
+    </form>
+
+    <div id="containerCards">
+
+    </div>
+
+    <script src="classes.js"></script>
+    <script src="designer.js"></script>
+    <script src="controlador.js"></script>
+
+</body>
+</html>
